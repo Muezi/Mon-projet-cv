@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon CV</title>
+    <link rel="stylesheet" href="cv.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+      <a href="projetCV.html"> <h1>Agbogan Muezi</h1> </a>
+      <a href="#exp">Expériences &ensp;</a>
+      <a href="#comp">Compétences &ensp;</a>
+      <a href="#forma">Formations &ensp;</a>
+      
+      <ul>
+        <li class="deroulant">Loisirs &ensp;
+            <ul class="sous">
+              <li>Culture pop</li>
+              <li>Jeux de réflexion</li>
+              <li>Jeux vidéos</li>
+              <li>Lecture</li>
+              <li>Sport</li>
+            </ul>
+        </li>
+      </ul>
+
+      <ul>
+        <li class="deroulant">Coordonnées &ensp;
+          <ul class="sous">
+            <li>Portable 07-70-16-90-95</li>
+            <li>email: muezi.agbogan@gmail.com</li>
+            <li>Permis B</li>
+          </ul>
+        </li>
+      </ul>
+    
+
+      <img src="profil.png" alt="profile icon" id="icon"/>
+     </nav> 
+    </header>
+
+    <div id="container">
+      <section>
+        <article>
+          <h2 id="exp">
+            Mes expériences 
+            <button type="button" id="togg1">
+              <img src="plus.png" alt="plus"></button>
+          </h2>
+          <ul >
+            <li>
+              <strong>Création d'une page web permettant d'afficher le CV</strong>
+            </li>
+            <ul class="gauche">
+              <i>Janvier 2022</i> 
+            </ul>
+            <ul class="gauche">
+              Projet fil rouge mené pendant ma formation à la Nurserie.
+            </ul>
+          </ul>
+
+          <ul id="d1">
+            <li>
+              <strong>Hôtesse de caisse</strong>
+            </li>
+            <ul class="gauche">
+              <i>Cora Flers | Depuis 2018</i>
+            </ul>
+            <ul class="gauche">
+              A mi-temps les week-ends, j'accueille les clients, les encaisse, etc.
+            </ul>
+          </ul>
+          
+        </article>
+      </section>
+
+      <section>
+        <article>
+          <h2 id="comp">
+            Mes compétences <button type="button" id="togg2"><img src="plus.png" /></button>
+          </h2>
+          <ul>
+            <li>
+              <strong>Langages </strong>: HTML, CSS, Javascript
+            </li>
+            <li>
+              <strong>Outils </strong>: Trello, Figma, Miro, VS Code, Oracle VirtualBox, GitHub
+            </li>
+            <li>
+              <strong>Points forts </strong> : Travail en équipe, Persévérence, Curiosité, Communication
+            </li>
+          </ul>
+          <ul id="d2">
+            <li >
+              <strong>Langues </strong> :
+              <ul class="gauche"> Anglais : courant </ul>
+              <ul class="gauche"> Chinois : intermédiaire </ul>
+              <ul class="gauche"> Espagnol : notions </ul>
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section>
+        <article>
+          <h2 id="forma">
+            Ma formation <button type="button" id="togg3"><img src="plus.png" alt="supprimer"/></button>
+          </h2>
+        
+          <ul>
+            <li>
+              <strong>Nurserie Euratechnologies Lille</strong> 
+            </li>
+            <li>
+              <ul class="gauche">
+                <i>Janvier 2022</i>
+              </ul>
+              <ul class="gauche">
+              Initiation HTML, CSS, Javascript, SQL 
+              Découverte de Scrum, Machines virtuelles
+              </ul>
+            </li>
+            <li >
+              <strong>Université de Lille</strong>
+            </li>
+              <ul class="gauche">
+                <i>Licence en Langues Etrangères Appliquées, 2017-2020</i>
+              </ul>
+              <ul class="gauche">
+              Traduction, Economie, Communication, Création de site,...
+              </ul>
+
+            <ul id="d3">
+             <li>
+              <strong>Lycée Gambetta</strong>
+            
+            <ul class="gauche">
+              <i>BAC ES | 2017 </i>
+            </ul>
+            <ul class="gauche">
+              Option Sport
+            </ul>
+          </li>
+          </ul> 
+
+      </article>
+      </section>
+    </div>
+
+    <footer>
+      <a href="mailto:muezi.agbogan@gmail.com">Contactez-moi</a>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
